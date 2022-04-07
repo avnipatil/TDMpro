@@ -1,0 +1,15 @@
+.page-not-found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+.png-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(../../../img/logo/Error404.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}

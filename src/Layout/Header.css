@@ -1,0 +1,68 @@
+/* css for header */
+.call-header ,.header-support ,.header-time{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+.main-nav{color: #00000080;}
+.main-nav-active{color: darkblue!important;}
+/* Logo width height */
+.TDM_logo{
+    height: 60px;
+    width: 125px;
+    background-image: url('https://lttdm.s3.ap-south-1.amazonaws.com/tdm.PNG ');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*  */
+.TDM_header{
+    position: fixed;
+    z-index: 99;
+    width: -webkit-fill-available;
+    width: 100%;
+    cursor: pointer !important;
+}
+.TDM_header .Navbar-Main-TDM{
+    box-shadow: 2px 2px 2px 2px #e2e2e7;
+}
+.TDM_header .dropdown-menu{
+    top:65px !important;
+    border-top: 5px solid  #413aa4 !important;
+    padding: 1.5rem 10px !important;
+    left: -200px !important;
+    min-width: 29rem !important;
+}
+.TDM_header .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #413aa4 !important;
+}
+.TDM_header .dropdown-item:active {
+    background-color: #dadfe0 !important;
+}
+.TDM_header .sm-header{
+     background: linear-gradient(
+          90deg, #31cce7 0%,rgb(75, 146, 204));
+}
+.TDM_header .sm-header i{
+    padding: 0px 5px 0px 0px !important;
+}
+/* underline for header link hover */
+.forunderline{
+    background: 
+    linear-gradient(currentColor 0 0) 
+    bottom /var(--d, 0) 2px 
+    no-repeat;
+    color:#413aa4;
+    transition:0.5s;
+  }
+.forunderline:hover{  --d: 100%;}
+/* ================== */
+/* Active link color change  */
+.TDM_header ,.navbar-nav > .active > a { 
+    background-color: #413aa4; 
+}
+.TDM_header ,.navbar-light .navbar-nav .nav-link :active{
+    color: #413aa4;
+}
+.drop-list a{
+    color: #212529 !important;
+    text-decoration: none;
+}

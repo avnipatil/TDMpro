@@ -1,0 +1,132 @@
+.about_bannner{
+    background-image: url('../../../img/contactban.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 100%; 
+    opacity: 1;
+}
+.about_subscrb{
+    box-shadow: 0 5px 20px #0000003b;  
+    margin-bottom: 3%;
+}
+.subscibetxt{
+    padding: 33px 20px 24px;
+    color:#413aa4;
+}
+.abouttxt_head{
+    line-height: 2;
+    color:#413aa4;
+    font-weight: bold;
+}
+.aboutpara{margin: 3%;
+    line-height: 2;
+text-align: justify;}
+.abouttxt_img{
+    height: 600px;
+    width: 100%;
+}
+
+/* Media query for Banner section */
+@media screen and (min-width:320px) and (max-width:425px){ 
+    .about_bannner{height: 90px;}
+}
+@media screen and (min-width:426px) and (max-width:575px){ 
+    .about_bannner{ height: 100px;}
+  }
+@media screen and (min-width:576px) and (max-width:768px){ 
+    .about_bannner{height: 120px;}
+    .contact_details span {font-size: 13px;}
+  }
+/* ================About  2nd section====================*/
+#intro {
+    padding-bottom: 0px;
+    padding: 10px 0px;
+}
+.section-heading {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 20px;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.intro-img {
+    margin-top: 45px;
+}
+.intro-box {
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.intro-box h4 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 0px;
+}
+.intro-box p {
+    line-height: 28px;
+    font-size: 15px;
+}
+.intro-box span {
+    font-size: 28px;
+    color: #413aa4;
+    padding: 10px;
+}
+.intro-cta {
+    margin-top: 40px;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.info-span{
+    text-decoration: none;
+    color: #fff;
+    background-color: #02bdd5;
+    height: 200px;
+    text-align: center;
+    width: 200px;
+    font-size: 50px;
+    line-height: 100px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* about new section */
+.feature, .nav-tabs .nav-link {
+    margin: 10px !important;
+    height: 100px !important;
+    width: 140px !important;
+    border: 2px solid #31cce7 !important;
+    text-align: center !important;
+    padding: 10px !important;
+}
+.feature, .nav-tabs .nav-link:hover {
+    background: linear-gradient(
+        90deg, #31cce7 0%,rgb(75, 146, 204));
+        color:#fff;
+}
+.feature, .nav-tabs {
+    border-bottom: none !important;
+}
+.feature-back{
+    background-color: #fff;
+    padding: 20px;
+}
+.feature-back h3{
+    color:#413aa4;
+    justify-content: center !important;
+}
+.feature-back h4{
+    justify-content: left !important;
+    display: flex;
+}
+.cl4-img img{
+    width:300px;
+    height:350px;
+}
+/*  */

@@ -1,0 +1,36 @@
+.latestblogsec{
+    margin: 1% 0px;
+    background-color: #f5f7fc;
+}
+.latestblogcols:hover{
+    box-shadow: 0 5px 20px #0000007a;
+}
+.latestbox-shadow{
+    text-align: justify;
+    box-shadow: 0 5px 20px #0000000d;
+}
+.latestblogimg{
+border-radius: 5px;
+}
+.latestblogtitle{
+    font-weight: bold;
+    color: #413aa4;
+}
+.latestblogcols2{
+    border-radius: 0.26667rem;
+    box-shadow: 0 5px 20px #0000000f;
+}
+.latestblogcategory{
+    color: #413aa4;
+    margin: 0;
+    border-bottom: 1px solid #e4e8ed;
+    padding: 1.33333rem 2rem 1.33333rem 2rem;
+}
+.latestblogul{
+    list-style: none;
+    text-align: justify;
+}
+.latestblogul li:hover{
+    color: #413aa4;
+    font-weight: bold;
+}

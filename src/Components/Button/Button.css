@@ -1,0 +1,42 @@
+.Loadmorebtn {
+    -webkit-appearance: none;
+    border: none;
+    outline: 0;
+    position: relative;
+    background:  linear-gradient(to right,  #413aa4
+ ,#B7B4DB,#413aa4,#413aa4,#15aec2,#413aa4);
+    background-size: 600%;
+    padding: 0.3rem 1.2rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 100px;
+    font-size: 17px;
+    transition: .3s;
+    animation: bruh 16s linear infinite;
+ }
+ @keyframes bruh {
+     0% {
+         background-position: 0 50%;
+     }
+ 
+     50% {
+         background-position: 100% 50%;
+     }
+ 
+     100% {
+         background-position: 0 50%;
+     }
+ }
+ .Loadmorebtn { transition: .3s;}
+.Loadmorebtn:hover{ 
+    color: #fff;
+    box-shadow: 0 8px 15px 0 rgba(114, 113, 117, 0.75);
+
+}
+.Loadmorebtn:focus{outline: none!important;}
+.submit-btn{
+    width:200px;
+    height: 50px;
+}
+
+ 

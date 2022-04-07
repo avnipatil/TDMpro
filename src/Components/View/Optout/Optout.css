@@ -1,0 +1,17 @@
+.OptOut-form{
+    top:22px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.opt-row{
+    background: -webkit-gradient(linear,left top,right top,from(#fcfcfd),to(#31cce7 ));
+    cursor: pointer !important;
+}
+.OptOut-form span{
+    color:#ff0000;
+    font-size:14px;
+    padding-left: 5px;
+}

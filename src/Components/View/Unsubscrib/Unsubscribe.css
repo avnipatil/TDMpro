@@ -1,0 +1,28 @@
+.unsubcribe-div-content{
+    height: auto;
+    width: 100%;
+    background: -webkit-gradient(linear,left top,right top,from(#fcfcfd),to(#31cce7 ));
+    box-shadow: 0 5px 20px #0000003b;
+    border-radius: 10px;
+}
+.unsubscribe-img{
+    height: 390px;
+    width: 100%;
+}
+.unsubscribe-content{
+    line-height: 2;
+    padding: 4.5rem !important;
+}
+.unsubscribe-content-head{
+    color:#413aa4;
+}
+.un-form span{
+    color:#ff0000;
+    font-size: 14px;
+}
+@media only screen and (min-width: 427px) and (min-width: 768px) { 
+    .unsubscribe-img{
+        height: 400px;
+        
+    }
+} 

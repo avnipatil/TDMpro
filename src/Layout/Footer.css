@@ -1,0 +1,176 @@
+.footer{
+    padding: 1.33333rem 0 1.33333rem;
+    background: linear-gradient(to bottom,#fbfbfd,#f2f1fa);
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    cursor: pointer !important;
+}
+.footer_logo{
+    height: 70px;
+    width: 130px;
+    background-image: url('https://lttdm.s3.ap-south-1.amazonaws.com/tdm.PNG ');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer .Useful_Links{
+    text-align: start;
+}
+.footer h6{
+    border-bottom: 2px solid #413aa4;
+    width: 50%;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer .Useful_Links i{
+    padding-right: 5px;
+    line-height: 2;
+}
+.footer .Useful_Links .Link{
+    text-decoration: none !important;   
+}
+.footer .footer-p:hover{
+    color: #413aa4 !important;
+}
+/*  */
+.footer .Useful_Links i:hover{
+    color: #413aa4 !important;
+} 
+.footer .Useful_Links a:hover{
+    color: #413aa4 !important;
+} 
+/* contact us hover effect */
+.Contact_us a{
+    text-decoration: none;
+    outline: none;
+}
+.Contact_us p:hover {
+    color: #413aa4 !important;
+}
+.Contact_us a:hover{
+    color: #413aa4 !important;
+}
+/* our newsletter hover effect */
+.Our_news p:hover{
+    color: #413aa4 !important;
+}
+.footer h6:hover{
+    color: #413aa4 !important;
+}
+.footer .Contact_us i{
+    padding-right: 5px;
+}
+.footer .Contact_us i:hover{
+    color: #413aa4;
+}
+/* footer bottom */
+ .footer_hr{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.footer__bottom {
+    background: linear-gradient(90deg, #31cce7 0%,rgb(75, 146, 204));
+}
+footer .footer__bottom .footer__bottom-content {
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 2.33333rem 0;
+}
+footer .footer__bottom .footer__bottom-content .social-basic li a {
+    color: #9192a3;
+}
+.footer__bottom-content .bottom_copy_link{
+    color: #fff;
+    text-decoration: none !important;  
+    font-weight: 500;
+}
+.bottom_copy_link:hover {
+    color: #413aa4;
+}
+.social-basic ul li a {
+    transition: all .3s ease;
+}
+.footer__bottom ul{
+    list-style-type: none; 
+}
+.footer .social_icon{
+    display: flex;
+    justify-content: end;
+}
+.social_icon span{
+    color: #fff; 
+}
+/* news letter */
+/* css for Footer newsletter */
+.newsletter-input1{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 60%;
+    height: 40px;
+    border-style: none;
+}
+.newsletter-input1:focus{  outline: none;}
+.subscribe-footer{
+    -webkit-border-top-right-radius: 25px;
+    -webkit-border-bottom-right-radius: 25px;
+    height: 39px;
+    background-color: #30a6e9;
+    color: white;
+    border-style: none;
+    width: 100px
+}
+.webform__form-control{
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+}
+.EWF__subscribe{
+    position: absolute;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    background-color: #413aa4;
+    color: #fff;
+    border: none !important;
+}
+.EWF__subscribe:hover{
+    background: linear-gradient(90deg, #31cce7 0%,rgb(75, 146, 204));
+    color: #000;
+    border: none !important;
+}
+.footer-subscribe{
+    width: 155px;
+    border: none !important;
+    text-indent: 5px;
+}
+.footer-subscribe:focus{
+    border: none !important;
+    text-decoration: none !important;
+    outline: none !important;
+}
+/* scroll to top bar */
+.go_top{
+    bottom:3px;
+    background-color: #413aa4;
+    color: #fff;
+    line-height: 2.66667rem;
+    cursor: pointer;
+    width: 2.66667rem;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    position: fixed;
+    -webkit-box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+    -webkit-border-radius: 1.66667rem 0 0 1.66667rem;
+    border-radius:0 1.66667rem 1.66667rem 0;
+    left: 0;
+    z-index: 111;
+    text-align: center;
+}
+.go_top span:hover{
+    background-color: #413aa4;
+}

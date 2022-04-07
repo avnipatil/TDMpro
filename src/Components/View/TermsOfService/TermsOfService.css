@@ -1,0 +1,27 @@
+.term_of_condition{
+    padding-top: 50px;
+    line-height: 2;
+}
+.term-of-servicess-head{
+    color:#413aa4;
+}
+.sub-privacy {
+    text-align: left;
+}
+.privacy-sub-title{
+    display: flex;
+    text-align: left;
+}
+.terms-condition-div{
+    z-index: -999;
+    position: fixed;
+    max-width: 100%;
+}
+.term-img{
+    height: 400px;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    margin-right: 50px;
+}

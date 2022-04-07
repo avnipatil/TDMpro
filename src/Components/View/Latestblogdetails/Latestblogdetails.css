@@ -1,0 +1,81 @@
+.blogdetrec_head{
+    color:#413aa4;
+    text-align: justify;
+}
+.lateblog_detboxcol4{
+    box-shadow: 0 5px 20px #0000003b;
+    margin-bottom: 2%;
+    padding: 4%;
+    border-radius: 5px;
+    background-color: #8f8fa108;
+}
+.latdetdatebold{font-weight: bold; color: #413aa4;}
+.blogdet_catdiv{ text-align: justify; margin: 3% 0px;}
+.latdet_category{
+    box-shadow: 0 5px 20px #0000003b;
+    padding: 3%;
+    margin: 2% 0px;
+    color: #413aa4;
+}
+.latdet_category:hover{
+    background-color: #413aa4;
+    color: #fff;
+}
+.blogdet_authorbox{
+    box-shadow: 0 5px 20px #0000003b;
+    padding: 3%;
+    margin: 2% 0px;
+
+}
+.blogdet_authname{color: #413aa4;}
+.blogdet_profile{height: 100px;
+border-radius: 50px;}
+.blogdetsome_det{text-align: justify;}
+.blogdetpwatxt{ text-align: justify;}
+.blogdetpwatxt_head{color: #413aa4;}
+.blogdet_commbox{
+    box-shadow: 0 5px 20px #0000003b;
+    margin-bottom: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #8f8fa108;
+}
+.blogdetform_box {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #8080800a;}
+.form-control:focus{outline: none; border: none!important;}
+
+/* icon css */
+.blogdet_icons ul { display:flex;}
+.blogdet_icons ul li { list-style: none;} 
+.blogdet_icons ul li a {
+    width:40px;
+    height:40px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration:none;
+    transition: .5s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+.blogdet_icons ul li a:hover {
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    text-decoration:none;
+    background: linear-gradient(90deg, #31cce7 0%,rgb(75, 146, 204));
+  }
+.blogdet_icons ul li a .fab {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(40px - 12px);
+    font-size:20px;
+    color: #413aa4;
+    transition: .5s;
+  }

@@ -1,0 +1,65 @@
+.Home-page{
+  cursor: pointer !important;
+}
+.team .member .member-img {
+                position: relative;
+                overflow: hidden;
+              }
+.team .member .member-info {
+                padding: 25px 15px;
+              }
+.team .member .member-info h4 {
+                font-weight: 700;
+                margin-bottom: 5px;
+                font-size: 18px;
+                color: #111111;
+              }
+.team .member .member-info span {
+                display: block;
+                font-size: 13px;
+                font-weight: 400;
+                color: #30a6e9;
+              }
+.team .member .member-info p {
+                font-size: 14px;
+                line-height: 26px;
+                color: #777777;
+              }
+ .btn03 {
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+                -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+                box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+            }
+.btn03 img {
+                position: relative;
+                width: 100%;
+                top: 0;
+                left: 0;
+            }
+  .btn03 .ovrly {
+                background: rgba(118, 206, 233, 0.35);
+                height: 100%;
+                left: 0;
+                top: 100%;
+                width: 100%;
+                position: absolute;
+                -webkit-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+.btn03:hover .buttons { bottom: 50%;}
+.btn03:hover .ovrly { top: 0;} 
+/* Banner img height fix */
+.cl-8-img{
+  height:300px;
+}
+.cl-4-img{
+  height:140px;
+}
+.cl-44-img{
+  height:130px;
+}

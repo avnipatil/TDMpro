@@ -1,0 +1,15 @@
+.latestcard{
+    text-align: justify;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    height: 300px;
+}
+.latestcard:hover{
+    border-bottom: 5px solid #413aa4;
+    transform: translateY(0.5rem);
+}
+.latestcardtitle{color:#413aa4;}
+.latestcard_category{font-weight: bold;}
+.card-body a {text-decoration: none;}
+.latestcard img{
+    height: 170px;
+}
